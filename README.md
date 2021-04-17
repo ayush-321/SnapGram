@@ -1,3 +1,6 @@
+This is a photo gallery web app made using reactjs and firebase.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

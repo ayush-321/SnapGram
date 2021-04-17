@@ -1,4 +1,3 @@
-#SnapGram
 This is a photo gallery web app made using reactjs and firebase.
 
 

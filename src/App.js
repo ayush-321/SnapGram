@@ -5,7 +5,7 @@ import Title from './comps/Title';
 import UploadForm from './comps/UploadForm';
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
 import storage from 'local-storage-fallback';
-import theme from 'styled-theming';
+// import theme from 'styled-theming';
 
 
 const GlobalStyle = createGlobalStyle`

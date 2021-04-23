@@ -37,7 +37,7 @@ function App() {
     <ThemeProvider theme={theme}>
     <GlobalStyle></GlobalStyle>
     <div className="App">
-    <button className="dark-btn" onClick={e => setTheme(theme.mode === 'dark' ? {mode:'light'} : {mode:'dark'})}>🌙</button>
+    <button className="dark-btn" onClick={e => setTheme(theme.mode === 'dark' ? {mode:'light'} : {mode:'dark'})}><span>🌙</span></button>
       <Title/>
       <UploadForm />
       <ImageGrid setSelectedImg={ setSelectedImg } />

@@ -29,6 +29,7 @@ body{
   font-size: 2.6rem;
 }
 
+
 /* upload form styles */
 form{
   margin: 30px auto 10px;
@@ -93,6 +94,7 @@ label:hover{
   top: 0;
   left: 0;
 }
+
 
 
 /* modal styles */

@@ -2,7 +2,7 @@ import React from 'react';
 import useFirestore from '../hooks/useFirestore';
 import { motion } from 'framer-motion';
 
-const ImageGrid =({ setSelectedImg }) => {
+const ImageGrid =({ setSelectedImg, handleDelete }) => {
 
     const { docs } = useFirestore('images');
     console.log(docs);
@@ -20,6 +20,7 @@ const ImageGrid =({ setSelectedImg }) => {
                         animate={{opacity: 1}}
                         transition={{delay:1}}
                     />
+                    
                 </motion.div>
             ))}
         </div>
